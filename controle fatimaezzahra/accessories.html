@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>my accessories</title>
+  <style>
+    /* CSS styles for the navigation bar */
+    ul.navbar {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #c7b785;
+    }
+    
+    ul.navbar li {
+      float: left;
+    }
+    
+    ul.navbar li a {
+      display: block;
+      color: rgb(4, 4, 4);
+      text-align: center;
+      padding: 16px 255px;
+      text-decoration: none;
+    }
+    
+    ul.navbar li a:hover {
+      background-color: #cac996;
+    }
+   
+    div{
+  border: 3px solid rgb(71, 38, 7);
+  margin: 10px 10px;
+  padding: 10px;
+}
+
+.centre{
+  text-align: center;
+}
+.navbar li ul {
+    display: none; /* Hide the nested list by default */
+    position: absolute;
+    background-color: #e3ceb2;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.navbar li:hover ul {
+    display: block; /* Show the nested list on hover */
+}
+
+.navbar li ul li {
+    display: block;
+}
+.product{
+        background-color: #dfdabb;
+    }
+    main {
+    padding: 30px;
+    }
+        .container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  img{
+    max-width: 70%;
+    height: auto ;
+  }
+
+  </style>
+</head>
+<body>
+  <ul class="navbar">
+    <li><a href="clothing.html">Home</a></li>
+    <li><a href="about.html">About us</a></li>
+    <li>
+        <a href="">Categorie</a>
+        <ul> <!-- This starts a nested unordered list for the categories -->
+            <li><a href="pants.html">pants/short/skirt</a></li>
+            <li><a href="accessories.html">accessories</a></li>
+            <li><a href="bags.html">bags</a></li>
+            <li><a href="tops.html">tops/overalls</a></li>
+            <li><a href="covers.html">covers</a></li>
+        </ul>
+    </li>
+    <li><a href="login-2.html">log in</a></li>
+  </ul>
+      <main>
+    <center> 
+        <div class="container">
+        <div class="product">
+            <img src="https://i.pinimg.com/736x/9c/d1/8c/9cd18cb24071594c192184b3bb65fffe.jpg">
+            <h3>head bands</h3>
+    <p>soft patern with multipule colors and sizes.</p>
+            <span class="price">20 MAD</span>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/564x/c6/99/11/c69911bc8023614cf15b55ff32267608.jpg">
+            <h3>cup holder</h3>
+    <p>leaf patern</p>
+            <span class="price">30 MAD</span>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/564x/d6/d8/a2/d6d8a24228973b540ecdd2faaed47748.jpg">
+            <h3>organiser</h3>
+    <p>soft pattern with a lot of colors</p>
+            <span class="price">75 MAD</span>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="product">
+            <img src="https://i.pinimg.com/564x/3f/b1/9b/3fb19b84a4a39e75cff468695ec91c2d.jpg">
+            <h3>croshet material organiser</h3>
+    <p>star detail brown and white colors</p>
+            <span class="price">50 MAD</span>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/564x/c9/f3/b4/c9f3b4d313f821519d0afbef41aed290.jpg">
+            <h3>hair bow</h3>
+    <p>soft pattern with diffrent colors</p>
+            <span class="price">20 MAD</span>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/564x/61/81/73/6181730f5fddb16559ba87addd903edf.jpg">
+            <h3>flower chocker</h3>
+    <p>soft pattern </p>
+            <span class="price">20 MAD</span>
+            <button>Add to Cart</button>
+        </div>
+        </div>
+        <div class="container">
+        <div class="product" >
+            <img src="https://i.pinimg.com/564x/a8/e9/f3/a8e9f3aa77d089afa61c899f714f2f02.jpg">
+            <h3>accessories organiser</h3>
+    <p>soft pattern </p>
+            <span class="price">75 MAD</span>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="https://i.pinimg.com/564x/aa/c5/01/aac5019965c929847f01872b56406454.jpg">
+            <h3>heart cup holder</h3>
+    <p>soft pattern any color you desir </p>
+            <span class="price">75 MAD</span>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+          <img src="https://i.pinimg.com/564x/95/d9/63/95d9636f0c21cb526fe4913c3faa69d9.jpg">
+          <h3>head phone decord</h3>
+  <p>soft pattern any color you desir </p>
+          <span class="price">10 MAD</span>
+          <button>Add to Cart</button>
+      </div>
+</div>
+    </center>
+</body>
